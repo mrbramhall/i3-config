@@ -164,3 +164,9 @@ bar {
     position bottom
     font $font
 }
+
+# Load a wallpaper
+exec --no-startup-id feh --randomize --bg-center ~/.wallpaper/*
+
+# Key binding for loading a different wallpaper
+bindsym $mod+n exec --no-startup-id feh --randomize --bg-scale ~/.wallpaper/*
